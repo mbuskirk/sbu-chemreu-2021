@@ -19,7 +19,7 @@ import numpy as np
 psi4.core.clean()
 psi4.core.clean_options()
 psi4.set_memory('4000 MB')  # Can make this much larger on Seawulf, each compute node has more than 100 GB RAM
-psi4.set_num_threads(4)    # Can make this much larger on Seawulf, each compute node can support 28 threads.
+psi4.set_num_threads(1)    # Can make this much larger on Seawulf, each compute node can support 28 threads.
                             # But it doesn't help much for small molecules...
 psi4.core.set_output_file('Lab4starter-CAS.dat', False) #this command sets psi4's output to a file. Comment this line out if you want to see the output on the terminal.
 
