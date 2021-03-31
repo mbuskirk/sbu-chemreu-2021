@@ -41,7 +41,7 @@ H2_string= """
 
 hh2=        {0}"""
 
-# Here is a list of bond distances that we want to compute, in degrees
+# Here is a list of bond distances that we want to compute, in Angstrom
 distances = [0.7,0.8,0.9,1.0,1.1,1.2,1.5,2.0,3.0,5.0,10.0,20.0]
 
 # This creates an empty 2-D array (matrix) that will store the energies 
