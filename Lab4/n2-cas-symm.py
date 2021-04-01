@@ -77,6 +77,8 @@ for r in distances:
     # atomic orbitals.  There are no CORE orbitals below, so irestrict_docc 
     # is 0.  icore is a rarely used option, but but if you are curious 
     # consult the psi4 documentation for a description.
+    # Here the 8 elements correspond to the numbers of orbitals
+    # in each D2h irrep: ag, b1g, b2g, b3g, au, b1u, b2u, b3u
     psi4.set_options({'restricted_docc':[1,0,0,0,0,1,0,0]})
     psi4.set_options({'active':[2,0,1,1,0,2,1,1]})
 
