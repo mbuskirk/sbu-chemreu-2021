@@ -55,10 +55,10 @@ psi4.driver.molden(wfn_opt, 'OCS.molden') #write optimzation results to a .molde
     
 print('Energies at initial positions with different methods:')
 print()
-print('Energy at initial geometry with ' + method1 + ' is ' + str(E0_1) + ' Hatrees')
-print('Energy at initial geometry with ' + method2 + ' is ' + str(E0_2) + ' Hatrees')
+print('Energy at initial geometry with ' + method1 + ' is ' + str(E0_1) + ' Hartrees')
+print('Energy at initial geometry with ' + method2 + ' is ' + str(E0_2) + ' Hartrees')
 print()
-print('Energy after global optimization with ' + method2 + ' is ' + str(Eopt) + ' Hatrees')
+print('Energy after global optimization with ' + method2 + ' is ' + str(Eopt) + ' Hartrees')
 
 #%%
 # Save data to a spreadsheet using Pandas ==========================================
